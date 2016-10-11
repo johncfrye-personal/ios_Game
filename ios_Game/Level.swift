@@ -1,8 +1,8 @@
 //
-//  GameScene.swift
+//  Level.swift
 //  ios_Game
 //
-//  Created by John Frye on 10/8/16.
+//  Created by John Frye on 10/10/16.
 //  Copyright © 2016 John Frye. All rights reserved.
 //
 
@@ -15,7 +15,7 @@ class GameScene: SKScene {
     private var spinnyNode : SKShapeNode?
     
     override func didMove(to view: SKView) {
-        
+        print("did move scene")
         // Get label node from scene and store it for use later
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
         if let label = self.label {
@@ -87,3 +87,4 @@ class GameScene: SKScene {
         // Called before each frame is rendered
     }
 }
+
