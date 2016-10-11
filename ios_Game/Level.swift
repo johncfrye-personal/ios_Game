@@ -9,16 +9,17 @@
 import SpriteKit
 import GameplayKit
 
-class GameScene: SKScene {
-    
-    private var label : SKLabelNode?
-    private var spinnyNode : SKShapeNode?
+class Level: SKScene {
     
     override func didMove(to view: SKView) {
+        print("did move scene")
+        // Get label node from scene and store it for use later
+        // Create shape node to use during mouse interaction
+        
+        }
     
-    }
     
-    
+
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
     }
